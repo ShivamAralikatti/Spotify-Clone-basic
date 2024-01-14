@@ -1,0 +1,23 @@
+body {
+    background-image: url(section2bg.jpg);
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: rgba(85, 84, 84,0.4);
+    color: whitesmoke;
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+.container:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
